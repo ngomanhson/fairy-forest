@@ -10,6 +10,6 @@ ScrollSmoother.create({
 
 //Loading
 window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-    loader.classList.add("loader-hidden");
+    const loader = document.querySelector(".loading");
+    loader.classList.add("loading-hidden");
 });

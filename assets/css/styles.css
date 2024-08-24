@@ -131,7 +131,7 @@ html {
   letter-spacing: calc((1vw + 1vh) / 37.5);
 }
 
-.loader {
+.loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -145,7 +145,7 @@ html {
   z-index: 99;
 }
 
-.loader-hidden {
+.loading-hidden {
   opacity: 0;
   visibility: hidden;
 }
