@@ -3,7 +3,42 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Parallax Scrolling</title>
+        <title>Fairy Forest | Ngo Manh Son</title>
+
+        <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body></body>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <header class="header">
+                    <div class="layers">
+                        <div class="layer__header">
+                            <div class="layer__caption">Step Into the Magic</div>
+                            <div class="layer__title">Fairy Forest</div>
+                        </div>
+
+                        <div class="layer layers__base" style="background-image: url(./assets/images/layer-base.png)"></div>
+                        <div class="layer layers__middle" style="background-image: url(./assets/images/layer-middle.png)"></div>
+                        <div class="layer layers__front" style="background-image: url(./assets/images/layer-front.png)"></div>
+                    </div>
+                </header>
+
+                <article class="article" style="background-image: url(./assets/images/dungeon.jpg)">
+                    <div class="article__content">
+                        <h2 class="article__title">The Journey Awaits</h2>
+                        <p class="article__paragraph">
+                            Venture into the heart of the unknown, where mysteries unravel and stories come alive. Every step you take brings you closer to the magic that lies within, waiting to be
+                            discovered. Are you ready to embrace the adventure?
+                        </p>
+                    </div>
+                    <div class="copyright">&#169; Ngo Manh Son</div>
+                </article>
+            </div>
+        </div>
+
+        <script src="./assets/libs/gsap/gsap.min.js" defer></script>
+        <script src="./assets/libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="./assets/libs/gsap/ScrollSmoother.min.js" defer></script>
+        <script src="./assets/js/main.js" defer></script>
+    </body>
 </html>
